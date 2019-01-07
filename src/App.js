@@ -1,26 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Data from './FED_Books';
+import Home from './Home.jsx'
+import Book from './Book.jsx'
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
+  state = {
+    books: Data.items.sort((a,b) => {return a.volumeInfo.title < b.volumeInfo.title ? -1 :a.volumeInfo.title > b.volumeInfo.title ? 1 : 0})
+  }
+
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+      <>
+        <header><h1>Assemble Books</h1></header>
+        <Switch>
+        <Route exact path="/" render={() => {return <Home books={this.state.books}/>}}/>
+        <Route path="/:id" component={Book}/>
+        </Switch>
+        <footer>
+          <h2>Assemble Books</h2>
+          <div className="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div>
+          <div className="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div >
+          <div className="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div>
+        </footer>
+      </>
+      </Router>
     );
   }
 }

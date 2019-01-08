@@ -4,8 +4,7 @@
 <p style={margin:'0' '20%'}>In this project I was given a list of objectives and a limited amount of time to complete them. For this project I Used React, React Router, and SASS in its construction. Given enough time, perhaps less than a day, I could have completed the entire list. What the outcome of this screen I will have been happy for the challenge.</p>
 <p style={margin:'0' '20%'}>Below you can find the wire frame and instructions I was given</p>
 
-
-<img style={margin:'0' 'auto'} src="./public/wireframe.png"/>
+<img style={margin:'0' 'auto'} src=./public/Wireframe.png>
 
 # Introduction
 Create a site that looks and feels like the included wireframe comp using the included JSON file.  

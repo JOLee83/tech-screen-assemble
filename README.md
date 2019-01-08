@@ -2,9 +2,7 @@
 <h1 style={text-align: 'center'}>Assemble Technical Screening</h1>
 
 <p style={margin:'0' '20%'}>In this project I was given a list of objectives and a limited amount of time to complete them. For this project I Used React, React Router, and SASS in its construction. Given enough time, perhaps less than a day, I could have completed the entire list. What ever the outcome of this screening, I will have been happy for the challenge.</p>
-<p style={margin:'0' '20%'}>Below you can find the wire frame and instructions I was given.</p>
-
-<img style={margin:'0' 'auto'} src=./FED_Wireframe_Books.png>
+<p style={margin:'0' '20%'}>Below you can find the instructions I was given. You may also find the wire frame image in the main directory of this repo.</p>
 
 <h1 style={text-align: 'center'}>Introduction</h1>
 <p style={margin:'0' '20%'}>Create a site that looks and feels like the included wireframe comp using the included JSON file.</p> 

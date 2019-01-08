@@ -5,7 +5,7 @@
 <p style={margin:'0' '20%'}>Below you can find the wire frame and instructions I was given</p>
 
 
-<img style={margin:'0' 'auto'} src=./public/Wireframe.png>
+<img style={margin:'0' 'auto'} src="./public/wireframe.png"/>
 
 # Introduction
 Create a site that looks and feels like the included wireframe comp using the included JSON file.  

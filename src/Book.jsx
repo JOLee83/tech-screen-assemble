@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Data from './FED_Books';
+import { Link } from "react-router-dom";
 
 class Book extends Component {
   state = {
@@ -7,6 +8,12 @@ class Book extends Component {
   }
   render() {
     return (
+      <>
+       <header>
+          <Link to="/">
+            <h1>Assemble Books</h1>
+          </Link>
+        </header>
       <main>
         {this.state.books.map((book, index) => {
             if(book.id === this.props.match.params.id){
@@ -25,6 +32,27 @@ class Book extends Component {
             }
           })}
       </main>
+      <footer>
+          <Link to="/">
+            <h2>Assemble Books</h2>
+          </Link>
+          <div className="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div>
+          <div className="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div >
+          <div className="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div>
+        </footer>
+      </>
     )
   }
 }

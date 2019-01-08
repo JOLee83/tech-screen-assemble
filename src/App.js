@@ -11,33 +11,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <>
-        <header>
-          <h1>Assemble Books</h1>
-        </header>
+      
         <Switch>
         <Route exact path="/" render={() => {return <Home books={this.state.books}/>}}/>
         <Route path="/:id" component={Book}/>
         </Switch>
-        <footer>
-          <h2>Assemble Books</h2>
-          <div className="links">
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-          </div>
-          <div className="links">
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-          </div >
-          <div className="links">
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-          </div>
-        </footer>
-      </>
       </Router>
     );
   }

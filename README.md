@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 style={text-align: 'center'}>Assemble Technical Screening</h1>
 
-In the project directory, you can run:
+<p style={margin:'0' '20%'}>In this project I was given a list of objectives and a limited amount of time to complete them. For this project I Used React, React Router, and SASS in its construction. Given enough time, perhaps less than a day, I could have completed the entire list. What the outcome of this screen I will have been happy for the challenge.</p>
+<p style={margin:'0' '20%'}>Below you can find the wire frame and instructions I was given</p>
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img style={margin:'0' 'auto'} src=./public/Wireframe.png>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# Introduction
+Create a site that looks and feels like the included wireframe comp using the included JSON file.  
 
-### `npm test`
+You have 3 hours to complete this test. Your timer started when you received this file. Please share your work at the end of 3 hours.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sharing
+Share your work by replying to the email from techscreen@weassemble.com, and either:
 
-### `npm run build`
+* Zip up your work folder and attach the zip file
+* Host the site yourself and send the url
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Application Requirements
+* Choose a front end framework i.e. UIKit, Bootstrap, etc.
+* Split the Book results into two rows, first row should be titles starting with A-M and the second row should be titles starting with N-Z.
+* Include a dropdown for hide/show results more than 10.
+* Display the Book Images at one standard size.
+* Must be responsive (desktop, mobile).
+* Add as many bonuses as possible.
+​
+# Bonuses
+## Design
+* Besides the key concepts, feel free to add your own style it.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## JavaScript framework
+* Choose a JavaScript framework such as React, Vue, Angular, etc.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pull the data
+* Instead of using the included JSON file, pull the data directly from the Google Book’s API [https://www.googleapis.com/books/v1/volumes?q=tech] .
 
-### `npm run eject`
+## Modal
+* If you click on an image, show a modal that displays a bigger version of the picture with its metadata.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Search
+* Add a text field that allows a user to search based on title or ISBN and reduces the results shown (show more would go away if search results are over 10).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

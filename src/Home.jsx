@@ -15,7 +15,7 @@ class Home extends Component {
       <>
         <div className={this.state.alert ? "alert" : "hide" }>
           <div className="alert-box">
-          <h4>Sorry, ALl Results Are Displayed.</h4>
+          <h4>Sorry, All Results Are Displayed.</h4>
             <button onClick={this.popUp}>OK</button>
           </div>
         </div>
